@@ -1,6 +1,7 @@
 // Dependencies
 import React, { Component } from 'react';
 // Externals
+import Circuits from '../../components/Circuits';
 import gitHub from '../../assets/images/github.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import reactIcon from '../../assets/images/react.svg';
@@ -13,7 +14,6 @@ import {
   Logos,
   ReactIcon,
   SectionOne,
-  SectionTwo,
   Wrapper,
 } from './styles';
 
@@ -22,6 +22,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Circuits />
         <SectionOne>
           <HeaderText>Bradley Ryan</HeaderText>
           <HeaderSubtext>Frontend Engineer</HeaderSubtext>
@@ -32,8 +33,6 @@ class App extends Component {
             <LogoLink href="https://www.linkedin.com/in/brad-conley/"><Logo alt="linkedin" src={linkedin} /></LogoLink>
           </Logos>
         </SectionOne>
-        <SectionTwo>
-        </SectionTwo>
       </Wrapper>
     );
   }
