@@ -114,15 +114,4 @@ export const Wrapper = styled.div`
   padding: 0 1%;
 `;
 
-export const NavBar = styled.div`
-  
-`;
 
-export const Title = styled.h1`
-  font-family: 'Inconsolata',monospace;
-  color: #61afef;
-`;
-
-export const NavLink = styled(Link)`
-
-`;

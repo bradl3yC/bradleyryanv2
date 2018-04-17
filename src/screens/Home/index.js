@@ -1,6 +1,7 @@
 // Dependencies
 import React, { Component } from 'react';
 // Externals
+import NavBar from '../../components/NavBar';
 import gitHub from '../../assets/images/github.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import reactIcon from '../../assets/images/react.svg';
@@ -11,11 +12,8 @@ import {
   Logo,
   LogoLink,
   Logos,
-  NavBar,
-  NavLink,
   ReactIcon,
   SectionOne,
-  Title,
   Wrapper,
 } from './styles';
 
@@ -24,11 +22,7 @@ class Home extends Component {
   render() {
     return (
       <Wrapper>
-        <NavBar>
-          <Title>bradleyRyan</Title>
-          <NavLink to="/projects">Projects</NavLink>
-          <NavLink to="/">Home</NavLink>
-        </NavBar>
+        <NavBar />
         <SectionOne>
           <HeaderText>Bradley Ryan</HeaderText>
           <HeaderSubtext>Frontend Engineer</HeaderSubtext>
