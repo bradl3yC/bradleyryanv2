@@ -1,5 +1,6 @@
 // Dependencies
 import styled, { keyframes } from 'styled-components';
+import { Link } from 'react-router-dom';
 
 
 export const HeaderText = styled.h1`
@@ -106,8 +107,22 @@ export const ProjectDescription = styled.p`
 `;
 
 export const Wrapper = styled.div`
-  background: linear-gradient(0, #ffffff 0%, #ffffff 40%, #61dafb 60%, #61dafb 100%);
+  background: rgb(50,50,50);
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 0 1%;
+`;
+
+export const NavBar = styled.div`
+  
+`;
+
+export const Title = styled.h1`
+  font-family: 'Inconsolata',monospace;
+  color: #61afef;
+`;
+
+export const NavLink = styled(Link)`
+
 `;
