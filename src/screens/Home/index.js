@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 // Externals
 import NavBar from '../../components/NavBar';
+import Footer from '../../components/Footer';
 import gitHub from '../../assets/images/github.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import reactIcon from '../../assets/images/react.svg';
@@ -33,6 +34,7 @@ class Home extends Component {
             <LogoLink href="https://www.linkedin.com/in/brad-conley/"><Logo alt="linkedin" src={linkedin} /></LogoLink>
           </Logos>
         </SectionOne>
+        <Footer />
       </Wrapper>
     );
   }

@@ -5,10 +5,12 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0 1%;
 `;
 
 export const NavLink = styled(Link)`
   margin-left: 1rem;
+  margin-top: 1rem;
 `;
 
 export const LinksContainer = styled.div`
