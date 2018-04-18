@@ -57,7 +57,7 @@ export const Section = styled.div`
 `;
 
 export const SectionOne = Section.extend`
-  height: 92vh;
+  height: 100vh;
 `;
 
 export const SectionTwo = Section.extend`

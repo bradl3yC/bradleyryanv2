@@ -34,7 +34,6 @@ class Home extends Component {
             <LogoLink href="https://www.linkedin.com/in/brad-conley/"><Logo alt="linkedin" src={linkedin} /></LogoLink>
           </Logos>
         </SectionOne>
-        <Footer />
       </Wrapper>
     );
   }

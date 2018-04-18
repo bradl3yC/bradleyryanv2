@@ -6,6 +6,10 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-between;
   padding: 0 1%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(50,50,50);
 `;
 
 export const NavLink = styled(Link)`

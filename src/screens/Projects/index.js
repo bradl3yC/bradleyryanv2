@@ -20,11 +20,11 @@ class Projects extends Component {
     return (
       <Wrapper>
         <NavBar />
-          <ProjectsHeader>My Projects</ProjectsHeader>
+          <ProjectsHeader>{`< My Projects />`}</ProjectsHeader>
           {map(projects, (project) => (
             <Project key={project.id} href={project.link}>
               <ProjectImage alt={project.name} src={project.image} />
-              <ProjectTitle>{project.name}</ProjectTitle>
+              <ProjectTitle>{`< ${project.name} />`}</ProjectTitle>
               <ProjectDescription>{project.description}</ProjectDescription>
             </Project>
           ))}
