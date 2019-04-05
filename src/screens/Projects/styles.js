@@ -22,7 +22,7 @@ export const Project = styled.a`
   flex-direction: column;
   margin: 60px 20px;
   text-decoration: none;
-  max-width: 100%;
+  max-width: 50%;
 `;
 
 export const ProjectImage = styled.img`

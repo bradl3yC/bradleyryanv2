@@ -1,5 +1,5 @@
 // Dependencies
-import React, { Component } from 'react';
+import React from 'react';
 import map from 'lodash/map';
 // Externals
 import NavBar from '../../components/NavBar';
@@ -15,22 +15,18 @@ import {
 } from './styles';
 
 
-class Projects extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <NavBar />
-          <ProjectsHeader>{`< My Projects />`}</ProjectsHeader>
-          {map(projects, (project) => (
-            <Project key={project.id} href={project.link}>
-              <ProjectImage alt={project.name} src={project.image} />
-              <ProjectTitle>{`< ${project.name} />`}</ProjectTitle>
-              <ProjectDescription>{project.description}</ProjectDescription>
-            </Project>
+const Projects = () => (
+  <Wrapper>
+    <NavBar />
+    <ProjectsHeader>{'< My Projects />'}</ProjectsHeader>
+    {map(projects, (project) => (
+      <Project key={project.id} href={project.link}>
+        <ProjectImage alt={project.name} src={project.image} />
+        <ProjectTitle>{`< ${project.name} />`}</ProjectTitle>
+        <ProjectDescription>{project.description}</ProjectDescription>
+      </Project>
           ))}
-      </Wrapper>
-    );
-  }
-}
+  </Wrapper>
+);
 
 export default Projects;

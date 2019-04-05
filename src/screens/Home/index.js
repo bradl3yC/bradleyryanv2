@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 // Externals
 import NavBar from '../../components/NavBar';
-import Footer from '../../components/Footer';
 import gitHub from '../../assets/images/github.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import reactIcon from '../../assets/images/react.svg';
