@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background: rgb(50,50,50);
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
+  background: url('assets/images/bg.png') no-repeat center center fixed;
 `;
 
 
