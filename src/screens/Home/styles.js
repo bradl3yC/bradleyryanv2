@@ -56,11 +56,11 @@ export const Section = styled.div`
   width: 100%;
 `;
 
-export const SectionOne = Section.extend`
+export const SectionOne = styled(Section)`
   height: 100vh;
 `;
 
-export const SectionTwo = Section.extend`
+export const SectionTwo = styled(Section)`
 `;
 
 export const Wrapper = styled.div`
